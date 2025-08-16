@@ -1,0 +1,7 @@
+ai-meeting-summarizer/
+│── server.js
+│── package.json
+│── .env               # add API keys here
+│── public/
+│    ├── index.html
+│    └── script.js
