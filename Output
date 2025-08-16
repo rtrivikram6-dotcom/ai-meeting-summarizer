@@ -1,0 +1,65 @@
+Step 1: Start server
+node server.js
+
+✅ Console output:
+
+Server running at http://localhost:3000
+
+Step 2: Open browser → http://localhost:3000
+
+You’ll see a very simple frontend with:
+
+Upload Transcript (file input)
+
+Enter Prompt (text input)
+
+Generate Summary (button)
+
+Summary editor (textarea)
+
+Recipient Email (text input)
+
+Send Email (button)
+
+Step 3: Upload Transcript + Enter Prompt
+
+Upload meeting_notes.txt and type:
+
+Summarize in bullet points for executives
+
+
+Click Generate Summary.
+
+Step 4: AI Output (example summary)
+- Meeting reviewed Q3 sales performance (15% increase).
+- Discussed supply chain delays in Asia.
+- Action items:
+   * Finance team → prepare Q4 budget by Aug 20.
+   * Ops team → resolve vendor contracts this week.
+- Next review scheduled for Sep 5.
+
+Step 5: Edit Summary
+
+You can directly edit text in the summary box. Example:
+
+- Emphasize Q3 growth: 15% sales increase.
+- Finance team: budget draft → Aug 20.
+
+Step 6: Send Email
+
+Enter recipient email: manager@example.com → click Send Email.
+
+✅ Console output:
+
+Email sent successfully to manager@example.com
+
+
+📧 Email received:
+
+Subject: Meeting Summary
+Body:
+- Emphasize Q3 growth: 15% sales increase.
+- Finance team: budget draft → Aug 20.
+
+
+✅ That’s the end-to-end output flow you’ll get.
