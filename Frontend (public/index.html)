@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>AI Meeting Summarizer</title>
+</head>
+<body>
+  <h2>AI Meeting Summarizer</h2>
+
+  <label>Upload Transcript:</label>
+  <input type="file" id="fileInput" /><br/><br/>
+
+  <label>Custom Prompt:</label>
+  <input type="text" id="promptInput" placeholder="e.g., Summarize in bullet points" /><br/><br/>
+
+  <button onclick="generateSummary()">Generate Summary</button>
+  <br/><br/>
+
+  <textarea id="summaryBox" rows="10" cols="60" placeholder="Summary will appear here..."></textarea>
+  <br/><br/>
+
+  <label>Recipients (comma separated):</label>
+  <input type="text" id="recipients" placeholder="example@email.com" />
+  <br/><br/>
+
+  <button onclick="sendEmail()">Send Email</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
